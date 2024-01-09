@@ -40,6 +40,6 @@ if st.button('Hasil Deteksi Topik '):
     elif(predict_topik == 2):
         topik_detection = 'Perangkat Lunak'
     else:
-        topik_detection = 'Data'
+        topik_detection = 'Sistem Cerdas'
 
 st.success(topik_detection)
