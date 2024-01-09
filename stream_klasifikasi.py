@@ -14,7 +14,8 @@ loaded_vec = TfidfVectorizer(decode_error="replace", vocabulary=set(pickle.load(
 # Judul halaman web
 st.title('Prediksi Topik Bidang IT yang Dibahas')
 
-clean_teks = st.text_input('Masukkan Teks')
+clean_teks = st.text_area('Masukkan Teks')
+
 
 topik_detection = ''
 
