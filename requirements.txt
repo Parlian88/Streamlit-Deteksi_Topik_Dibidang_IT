@@ -4,3 +4,4 @@ streamlit
 matplotlib
 pip==23.3.2
 scikit-learn
+pickel
